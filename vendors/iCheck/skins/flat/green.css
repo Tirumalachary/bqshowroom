@@ -1,0 +1,179 @@
+/* iCheck plugin Flat skin, green
+----------------------------------- */
+.icheckbox_flat-green,
+.iradio_flat-green {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(green.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.dataTables_length{ margin: 30px 0 0 0}
+.datatable-buttons_wrapper, .dt-buttons{ float: right;}
+/*Tab*/
+.tab {
+/*
+	overflow: hidden;
+	text-align: center;
+*/
+}
+
+.tab button {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 5px 20px;
+	transition: 0.3s;
+	font-size: 17px;
+	margin: 0px 0;
+	color: #73879c;
+}
+
+.tab button:hover {
+	border-bottom: 3px solid;
+}
+
+.tab button.active {
+	border-bottom: 3px solid;
+    color: #007bff;
+}
+
+.tabcontent {
+/*	display: none;*/
+	padding: -1px 12px;
+	border-top: none;
+/*	text-align: center;*/
+}
+/*
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: inherit !important;
+	border-bottom: 2px solid #000 !important;}
+
+ul.bar_tabs > li{ background: inherit !important;}
+*/
+
+/*
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+	
+	border-bottom: 2px solid #000 !important;
+}
+*/
+
+
+
+.right_col{ min-height: inherit !important;}
+
+.icheckbox_flat-green {
+    background-position: 0 0;
+}
+    .icheckbox_flat-green.checked {
+        background-position: -22px 0;
+    }
+    .icheckbox_flat-green.disabled {
+        background-position: -44px 0;
+        cursor: default;
+    }
+    .icheckbox_flat-green.checked.disabled {
+        background-position: -66px 0;
+    }
+
+.iradio_flat-green {
+    background-position: -88px 0;
+}
+    .iradio_flat-green.checked {
+        background-position: -110px 0;
+    }
+    .iradio_flat-green.disabled {
+        background-position: -132px 0;
+        cursor: default;
+    }
+    .iradio_flat-green.checked.disabled {
+        background-position: -154px 0;
+    }
+.search_div_icon {
+    /*display: flex;
+    background: url("../../../../production/images/ic_search.png") no-repeat 0px 0px;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+    top: 9px;
+    left: 5px;*/
+	position: absolute;
+    top: 9px;
+    left: 11px;
+    color: #777;
+}
+
+.search_div input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+    background: url(images/ic_search.png);
+    background-position: 10px 6px;
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;}
+/* Ben Starts Here */
+
+.main_right_cont {
+	position: absolute;
+    height: calc(100vh - 93px);
+    overflow: auto;
+    top: 56px;
+    overflow-x: hidden; width: 100%;
+}
+.main_right_cont::-webkit-scrollbar {
+background: #ccc;
+width: 5px;
+}
+.main_right_cont::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 5px 6px #eee;
+}
+.main_right_cont::-webkit-scrollbar-thumb {
+background-color: #aaa;
+border-radius: 25px;
+outline: 0px solid slategrey;
+}
+
+.sprt_sec {
+	display: flex;
+    align-items: center;
+}
+.sprt_sec a {
+	text-decoration: none;
+	color: #000;
+}
+.sprt_sec a:hover {
+	text-decoration: underline;
+	color: #7fa801;
+}
+.pd_lfrg_5px {
+	padding: 0 5px;
+}
+.pd_lfrg_10px {
+	padding: 0 10px;
+}
+/* Ben Ends Here */
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_flat-green,
+    .iradio_flat-green {
+        background-image: url(green@2x.png);
+        -webkit-background-size: 176px 22px;
+        background-size: 176px 22px;
+    }
+}

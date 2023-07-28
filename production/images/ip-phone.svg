@@ -1,0 +1,9 @@
+<svg id="Icons" xmlns="http://www.w3.org/2000/svg" width="24" height="20.259" viewBox="0 0 24 20.259">
+  <g id="Phone_System" data-name="Phone System" transform="translate(0 0)">
+    <path id="Op_component_1" data-name="Op component 1" d="M431.537,1108.393a.2.2,0,0,1-.012-.018c-.006-.01-.015-.016-.018-.023a.932.932,0,0,0-.757-.39h-15.81a.935.935,0,0,0-.935.936h0v18.269h0a.936.936,0,0,0,.151.509.075.075,0,0,1,.009.015.188.188,0,0,1,.019.023.929.929,0,0,0,.756.39H430.75a.935.935,0,0,0,.934-.935h0V1108.9h0A.909.909,0,0,0,431.537,1108.393Z" transform="translate(-407.684 -1107.921)" fill="#ccc"/>
+    <path id="Op_component_2" data-name="Op component 2" d="M411.927,1128.188H413.1a.935.935,0,0,0,.936-.935h0v-18.389a.917.917,0,0,0-.149-.5c0-.005-.008-.013-.012-.018a.082.082,0,0,0-.017-.023.934.934,0,0,0-.757-.39h-3.162a.934.934,0,0,0-.934.934v18.388h0a.927.927,0,0,0,.149.507.072.072,0,0,1,.011.016c.006.01.013.016.017.024a.931.931,0,0,0,.757.389h1.971" transform="translate(-409.003 -1107.93)" fill="#ccc"/>
+    <path id="Op_component_1-2" data-name="Op component 1" d="M424.549,1112.992h2.563v2.508h-2.563Zm-3.77,0h2.534v2.508H420.78Zm-3.77,0h2.534v2.508H417.01Z" transform="translate(-406.905 -1106.674)" fill="#fff"/>
+    <path id="Op_component_2-2" data-name="Op component 2" d="M424.549,1115.992h2.563v2.508h-2.563Zm-3.77,0h2.534v2.508H420.78Zm-3.77,0h2.534v2.508H417.01Z" transform="translate(-406.905 -1105.883)" fill="#fff"/>
+    <path id="Op_component_3" data-name="Op component 3" d="M424.549,1118.992h2.563v2.508h-2.563Zm-3.77,0h2.534v2.508H420.78Zm-3.77,0h2.534v2.508H417.01Z" transform="translate(-406.905 -1105.093)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+position: absolute;
+    height: calc(100vh - 93px);
+    overflow: auto;
+    top: 58px;
+    overflow-x: hidden;
+}
